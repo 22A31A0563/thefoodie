@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foodie veg</title>
+    <style>
+        body{
+            background-color:bisque;
+            color:black;
+        }
+        /* .vegitems{
+            font-size: large;
+            font-weight:bolder;
+        }
+        .vegitems2{
+            font-size: large;
+            font-weight:bolder;
+            padding-left: 50px;
+        } */
+        .flex{
+            display:flex;
+            justify-content: space-evenly;
+            font-size: large;
+            font-weight:bolder;
+        }
+        .sezwanrice{
+            background-image:url("../thefoodie images/sezwan.webp");
+            height: 200px;
+            width:200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        #price{
+            text-align: center;
+            padding-top: 200px;
+            font-size: large;
+            font-weight:bolder;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .vegfriedrice{
+            background-image: url("../thefoodie images/veg fried rice.jpg");
+            height: 200px;
+            width: 200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .paneerfriedrice{
+            background-image: url("../thefoodie images/paneer-fried-rice-2.jpg");
+            height: 200px;
+            width: 200px;
+            background-size: cover;
+            background-position:bottom;
+            border-radius:10px;
+        }
+        .manchurian{
+            background-image: url("../thefoodie images/manchurian fried rice.webp");
+            height: 200px;
+            width: 200px;
+            background-size: cover;
+            background-position:center;
+            border-radius:10px;
+        }
+        .vegbiryani{
+            background-image: url("../thefoodie images/vegetable-biryani 2.jpg");
+            height: 200px;
+            width: 200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .paneerbiryani{
+            background-image: url("../thefoodie images/paneer biryani.jpg");
+            height: 200px;
+            width: 200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .kajubiryani{
+            background-image: url("../thefoodie images/kaju biryani.jpg");
+            height: 200px;
+            width: 200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .mushroombiryani{
+            background-image: url("../thefoodie images/mushroom biryani.png");
+            height: 200px;
+            width: 200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .vegsandwich{
+            border-radius: 10px;
+            background-image: url("../thefoodie images/veg sandwich.jpeg");
+            background-position: center;
+            height:200px;
+            width:200px;
+        }
+        .vegburger{
+            border-radius: 10px;
+            background-image: url("../thefoodie images/veg burger.webp");
+            background-position: center;
+            background-size: cover;
+            height:200px;
+            width:200px;
+        }
+        .soup{
+            border-radius: 10px;
+            background-image: url("../thefoodie images/soups.jpg");
+            background-position:center;
+            background-size: cover;
+            height:200px;
+            width:200px;
+        }
+        .meals{
+            border-radius: 10px;
+            background-image: url("../thefoodie images/meals.avif");
+            background-position: center;
+            background-size: cover;
+            height:200px;
+            width:200px;
+        }
+        .paneertikka{
+            background-image:url("../thefoodie images/paneer tikka.jpg");
+            height: 200px;
+            width:200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .vegmanchuria{
+            background-image:url("../thefoodie images/veg manchuria.jpg");
+            height: 200px;
+            width:200px;
+            background-size: cover;
+            background-position:-1px -90px;
+            border-radius:10px;
+        }
+        .vegspringrolls{
+            background-image:url("../thefoodie images/veg spring rolls.jpg");
+            height: 200px;
+            width:200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .babycorn{
+            background-image:url("../thefoodie images/baby corn.jpg");
+            height: 200px;
+            width:200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .kajucurry{
+            background-image:url("../thefoodie images/kaju curry 2.jpg");
+            height: 200px;
+            width:200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .kajupaneer{
+            background-image:url("../thefoodie images/kaju paneer2.jpg");
+            height: 200px;
+            width:200px;
+            background-size: cover;
+            background-position: -53px;
+            border-radius:10px;
+        }
+        .palakpaneer{
+            background-image:url("../thefoodie images/palak paneer.webp");
+            height: 200px;
+            width:200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .mixveg{
+            background-image:url("../thefoodie images/mix veg curry.jpg");
+            height: 200px;
+            width:200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Here are our veg items</h1>
+    <div class="flex">
+        <div class="vegitems"> Fried Rice:
+            <div class="sezwanrice"><div id="price">Sezwan fried rice<br>Price:160/-</div></div><br><br><br>
+            <div class="vegfriedrice"><div id="price"> fried rice<br>Price:140/-</div></div><br><br><br>
+            <div class="paneerfriedrice"><div id="price">paneer fried rice<br>Price:200/-</div></div><br><br><br>
+            <div class="manchurian"><div id="price"> Manchurian fried rice<br>Price:180/-</div></div>
+        </div>    
+        <div class="vegitems2"> Biryani's:
+            <div class="vegbiryani"><div id="price">Veg Biryani<br>Price:190/-</div></div><br><br><br>
+            <div class="paneerbiryani"><div id="price">Paneer Biryani<br>Price:250/-</div></div><br><br><br>
+            <div class="kajubiryani"><div id="price">Kaju Biryani<br>Price:230/-</div></div><br><br><br>
+            <div class="mushroombiryani"><div id="price">Mushroom Biryani<br>Price:220/-</div></div>
+        </div>   
+        <div class="vegitems3"> Curry:
+            <div class="kajucurry"><div id="price">Kaju Curry<br>Price:170/-</div></div><br><br><br>
+            <div class="kajupaneer"><div id="price">Kaju Paneer<br>Price:190/-</div></div><br><br><br>
+            <div class="palakpaneer"><div id="price">Palak Paneer<br>Price:210/-</div></div><br><br><br>
+            <div class="mixveg"><div id="price"> Mix Veg curry<br>Price:120/-</div></div>
+        </div> 
+        <div class="vegitems4"> Starters:
+            <div class="paneertikka"><div id="price">Paneer tikka<br>Price:180/-</div></div><br><br><br>
+            <div class="vegmanchuria"><div id="price"> Veg manchuria<br>Price:160/-</div></div><br><br><br>
+            <div class="vegspringrolls"><div id="price">Veg Spring rolls<br>Price:130/-</div></div><br><br><br>
+            <div class="babycorn"><div id="price"> Baby corn<br>Price:130/-</div></div>
+        </div> 
+        <div class="vegitems4"> Other items:
+            <div class="vegsandwich"><div id="price">Veg Sandwich<br>Price:80/-</div></div><br><br><br>
+            <div class="vegburger"><div id="price"> Veg Burger<br>Price:80/-</div></div><br><br><br>
+            <div class="soup"><div id="price">veg Soup<br>Price:100/-</div></div><br><br><br>
+            <div class="meals"><div id="price"> Meals<br>Price:100/-</div></div>
+        </div>        
+    </div>     
+</body>
+</html>

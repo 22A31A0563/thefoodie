@@ -1,0 +1,162 @@
+*{
+    margin:0px;
+    padding:0px;
+    color:white;
+}
+.navbar{
+    height:60px;
+    background-color:burlywood;
+    color:black;
+    display:flex;
+    align-items: center;
+}
+.navlogo{
+    background-image: url("thefoodie images/foodie logo.png");
+    height:100%;
+    width:80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navcontents{
+    list-style: none;
+    display:flex;
+}
+li{
+    text-decoration: none;
+    font-size:larger;
+    font-weight: bolder;
+    display:flex;
+    justify-content:space-evenly;
+    width:100px;
+    margin:60px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li:hover{
+    background-color: chartreuse;
+}
+.backgroundimg1{
+    background-image: url("thefoodie images/foodie backgroundimg.webp");
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* background-attachment:fixed; */
+}
+marquee{
+    color:white;
+    font-weight:bold;
+    font-size: 50px;
+}
+#highlight{
+    color:white;
+    font-weight:bold;
+    font-size: 50px; 
+    text-align: center;
+}
+button{
+    font-size: 30px;
+    border:2px solid white;
+    padding:10px;
+    background-color: black;
+    border-radius: 20px
+}
+ /* button{
+    color:white;
+    background-color: black;
+ } */
+.home{
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none; 
+    text-align:center;
+}
+#noodles{
+    border-radius:10px; 
+    background-image: url("thefoodie images/egg noodles.jpeg");
+    background-size: cover;
+    background-position: center;
+     height:200px;
+    width:200px; 
+}
+#manchuria{
+    border-radius: 10px; 
+    background-image: url("thefoodie images/chicken manchuria.jpg");
+    background-size:cover;
+    background-position: center;
+    height:200px;
+    width:200px;
+}
+#pesarattuupma{
+    background-image: url("thefoodie images/pesarattu upma.webp");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius:10px;
+}
+ #burger{
+    border-radius: 10px;
+    background-image: url("thefoodie images/veg burger.webp");
+    background-position: center;
+    background-size: cover;
+    height:200px;
+    width:200px;
+ }
+.home1{
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none; 
+    text-align:center;
+}
+p{
+    font-weight: bold;
+    background-color: chocolate;
+    border-radius:10px;
+    margin-top: 10px;
+}
+#soup{
+    border-radius: 10px;
+    background-image: url("thefoodie images/soups.jpg");
+    background-position:center;
+    background-size: cover;
+    height:200px;
+    width:200px;
+ }
+ #meals{
+    border-radius: 10px;
+    background-image: url("thefoodie images/meals.avif");
+    background-position: center;
+    background-size: cover;
+    height:200px;
+    width:200px;
+ }
+ #biryani{
+    border-radius: 10px;
+    background-image: url("thefoodie images/kunda biryani.webp");
+    background-size: cover;
+    background-position:13%;
+    height:200px;
+    width:200px;
+ }
+ #icecream{
+    border-radius: 10px;
+    background-image: url("thefoodie images/ice cream.jpg");
+    background-position: center;
+    background-size: cover;
+    height:200px;
+    width:200px;
+ }
+ .footer{
+    background-color: black;
+    height:40px;
+    text-align: center;
+    padding-top: 20px;
+ }
+ .down{
+    background-color: rgb(225, 225, 225);
+    height:120px;
+    display:flex;
+    justify-content: space-between;
+ }

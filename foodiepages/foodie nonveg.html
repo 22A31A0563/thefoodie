@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>non veg</title>
+    <style>
+        body{
+            background-color:rgb(233, 230, 230);
+            color:black;
+        }
+        /* .vegitems{
+            font-size: large;
+            font-weight:bolder;
+        }
+        .vegitems2{
+            font-size: large;
+            font-weight:bolder;
+            padding-left: 50px;
+        } */
+        .flex{
+            display:flex;
+            justify-content: space-evenly;
+            font-size: large;
+            font-weight:bolder;
+        }
+        .biryani{
+            border-radius: 10px;
+            background-image: url("../thefoodie images/kunda biryani.webp");
+            background-size: cover;
+            background-position:13%;
+            height:200px;
+            width:200px;
+        }
+        #price{
+            text-align: center;
+            padding-top: 200px;
+            font-size: large;
+            font-weight:bolder;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .chickenfriedrice{
+            background-image: url("../thefoodie images/chicken fried rice.jpg");
+            height: 200px;
+            width: 200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .chickenbiryani{
+            background-image: url("../thefoodie images/chicken joint biryani.jpeg");
+            height: 200px;
+            width: 200px;
+            background-size: cover;
+            background-position:bottom;
+            border-radius:10px;
+        }
+        .frybitbiryani{
+            background-image: url("../thefoodie images/chicken frybit biryani.jpg");
+            height: 200px;
+            width: 200px;
+            background-size: cover;
+            background-position:center;
+            border-radius:10px;
+        }
+        .lollipopbiryani{
+            background-image: url("../thefoodie images/chicken lollipop biryani.jpg");
+            height: 200px;
+            width: 200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .muttonbiryani{
+            background-image: url("../thefoodie images/mutton biryani.webp");
+            height: 200px;
+            width: 200px;
+            background-size: cover;
+            background-position:center;
+            border-radius:10px;
+        }
+        .prawnsbiryani{
+            background-image: url("../thefoodie images/prawns biryani.jpg");
+            height: 200px;
+            width: 200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .mughalaibiryani{
+            background-image: url("../thefoodie images/mughalai biryani.jpg");
+            height: 200px;
+            width: 200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .bonecurry{
+            border-radius: 10px;
+            background-image: url("../thefoodie images/bone curry.jpg");
+            background-position:center ;
+            background-size: cover;
+            height:200px;
+            width:200px;
+        }
+        .bonelesscurry{
+            border-radius: 10px;
+            background-image: url("../thefoodie images/boneless curry.jpg");
+            background-position: center;
+            background-size: cover;
+            height:200px;
+            width:200px;
+        }
+        .muttoncurry{
+            border-radius: 10px;
+            background-image: url("../thefoodie images/mutton curry.jpg");
+            background-position:center;
+            background-size: cover;
+            height:200px;
+            width:200px;
+        }
+        .fishfry{
+            border-radius: 10px;
+            background-image: url("../thefoodie images/fish fry.jpeg");
+            background-position: center;
+            background-size: cover;
+            height:200px;
+            width:200px;
+        }
+        .cheeseomelet{
+            background-image:url("../thefoodie images/egg cheese omelet.webp");
+            height: 200px;
+            width:200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .manchuria{
+            border-radius: 10px; 
+            background-image: url("../thefoodie images/chicken manchuria.jpg");
+            background-size:cover;
+            background-position: center;
+            height:200px;
+            width:200px;
+        }
+        .springrolls{
+            background-image:url("../thefoodie images/chicken spring rolls.webp");
+            height: 200px;
+            width:200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .chilliprawns{
+            background-image:url("../thefoodie images/Chilli Prawns.jpg");
+            height: 200px;
+            width:200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .noodles{
+            border-radius:10px; 
+            background-image: url("../thefoodie images/egg noodles.jpeg");
+            background-size: cover;
+            background-position: center;
+            height:200px;
+            width:200px; 
+        }
+        .butterchicken{
+            background-image:url("../thefoodie images/butter chicken.jpg");
+            height: 200px;
+            width:200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .roganjosh{
+            background-image:url("../thefoodie images/rogan josh.webp");
+            height: 200px;
+            width:200px;
+            background-size: cover;
+            background-position: center;
+            border-radius:10px;
+        }
+        .keema{
+            background-image:url("../thefoodie images/keema.jpg");
+            height: 200px;
+            width:200px;
+            background-size: cover;
+            background-position:center;
+            border-radius:10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Here are our non veg items</h1>
+    <div class="flex">
+        <div class="nonvegitems"> Fried Rice and Chicken items:
+            <div class="biryani"><div id="price">Pot biryani<br>Price:280/-</div></div><br><br><br>
+            <div class="chickenfriedrice"><div id="price">Chicken fried rice<br>Price:150/-</div></div><br><br><br>
+            <div class="chickenbiryani"><div id="price">Chicken joint Biryani(2pcs)<br>Price:250/-</div></div><br><br><br><br>
+            <div class="frybitbiryani"><div id="price">Fry Bit Biryani<br>Price:230/-</div></div><br><br><br>
+        </div>    
+        <div class="nonvegitems2"> Biryani's:
+            <div class="lollipopbiryani"><div id="price">Chicken lollipop Biryani(3pcs)<br>Price:260/-</div></div><br><br><br><br>
+            <div class="muttonbiryani"><div id="price">Mutton Biryani<br>Price:300/-</div></div><br><br><br>
+            <div class="prawnsbiryani"><div id="price">Prawns Biryani<br>Price:320/-</div></div><br><br><br>
+            <div class="mughalaibiryani"><div id="price">Mughalai Biryani<br>Price:230/-</div></div>
+        </div>   
+        <div class="nonvegitems3"> Curry:
+            <div class="bonecurry"><div id="price">Chicken Bone Curry<br>Price:170/-</div></div><br><br><br>
+            <div class="bonelesscurry"><div id="price">Chicken Boneless Curry<br>Price:190/-</div></div><br><br><br><br>
+            <div class="muttoncurry"><div id="price">Muttton Curry<br>Price:210/-</div></div><br><br><br>
+            <div class="fishfry"><div id="price"> Fish fry(3pcs)<br>Price:120/-</div></div>
+        </div> 
+        <div class="nonvegitems4"> Starters:
+            <div class="cheeseomelet"><div id="price">Egg Cheese omelet<br>Price:100/-</div></div><br><br><br>
+            <div class="manchuria"><div id="price"> Chicken manchuria<br>Price:120/-</div></div><br><br><br>
+            <div class="springrolls"><div id="price">Chicken Spring rolls<br>Price:130/-</div></div><br><br><br>
+            <div class="chilliprawns"><div id="price">Chilli Prawns<br>Price:150/-</div></div>
+        </div> 
+        <div class="nonvegitems4"> Other items:
+            <div class="noodles"><div id="price">Egg noodles<br>Price:80/-</div></div><br><br><br>
+            <div class="butterchicken"><div id="price">Butter chicken<br>Price:180/-</div></div><br><br><br>
+            <div class="roganjosh"><div id="price">Mutton Rogan Josh<br>Price:240/-</div></div><br><br><br>
+            <div class="keema"><div id="price">Mutton Keema<br>Price:220/-</div></div>
+        </div>        
+    </div>    
+</body>
+</html>
